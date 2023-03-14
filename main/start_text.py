@@ -5,11 +5,11 @@ from config import ADMIN
 
 @Client.on_message(filters.command("start") & filters.private)                             
 async def start_cmd(bot, msg):
-    txt="This is personal use bot 🙏. Do you want your own bot? 👇 Click the source code to deploy"
+    txt="This is personal use bot 🙏. Do you want your own bot? 👇 Click the Below Button"
     btn = InlineKeyboardMarkup([[
-        InlineKeyboardButton("🤖 SOURCE CODE", url="https://t.me/AloneX_Bots")
+        InlineKeyboardButton("📞 CONTACT TO BUY", url="https://t.me/AloneX_Bots/177")
         ],[
-        InlineKeyboardButton("🖥️ How To Deploy", url="https://t.me/AloneXOffl_Bot")
+        InlineKeyboardButton("BOT UPDATES", url="https://t.me/AloneXBots")
     ]])
     if msg.from_user.id != ADMIN:
         return await msg.reply_text(text=txt, reply_markup=btn, disable_web_page_preview = True)
