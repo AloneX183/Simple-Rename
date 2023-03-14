@@ -49,7 +49,7 @@ async def about(bot, msg):
     me=await bot.get_me()
     Master=f"<a href=https://t.me/AloneXTG>AloneX</a> & <a href=https://t.me/dadaxbhai>DaDaBhai</a>"  
     Source="<a href=https://t.me/AloneX_Bots>Click Here</a>"
-    txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=https://t.me/AloneXOffl_Bot>AloneX</a>\nBot Updates: <a href=https://t.me/AloneX_Bots>Mᴋɴ Bᴏᴛᴢ™</a>\nMy Master's: {Master}\nSource Code: {Source}</b>"                 
+    txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=https://t.me/AloneXOffl_Bot>AloneX</a>\nBot Updates: <a href=https://t.me/AloneX_Bots>AloneX Bots</a>\nMy Master's: {Master}\nSource Code: {Source}</b>"                 
     button= [[        
         InlineKeyboardButton("🚫 Close", callback_data="del"),
         InlineKeyboardButton("⬅️ Back", callback_data="start") 
