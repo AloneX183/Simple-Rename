@@ -9,7 +9,7 @@ async def start_cmd(bot, msg):
     btn = InlineKeyboardMarkup([[
         InlineKeyboardButton("📞 CONTACT TO BUY", url="https://t.me/AloneX_Bots/177")
         ],[
-        InlineKeyboardButton("BOT UPDATES", url="https://t.me/AloneXBots")
+        InlineKeyboardButton("BOT UPDATES", url="https://t.me/AloneX_Bots")
     ]])
     if msg.from_user.id != ADMIN:
         return await msg.reply_text(text=txt, reply_markup=btn, disable_web_page_preview = True)
